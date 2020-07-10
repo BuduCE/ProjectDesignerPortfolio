@@ -1,3 +1,5 @@
+
+
 @media (max-width:768px){
     .large{
         display:none;
@@ -80,12 +82,18 @@
         grid-template-columns: repeat(3,0.3fr);
         text-align: center;
     }
-    #form_ input{
-        width: 780px; 
+    #form_ input{ 
         height: 59px;
+        width: 350px;
         border: 1px solid rgba(27, 27, 47, 0.3);
         border-radius:4px;
+        margin-left: auto;
+        margin-right: auto;
     }
+    /*#mesg input[placeholder]{
+        position:absolute;
+        top:50%;
+    }*/
 }
 @media (min-width:769px){
     .small{
@@ -165,13 +173,21 @@
         grid-template-columns: repeat(3,2fr);
         text-align: center;
     }
-    .contact_us1{
-        
+    .contact2{
+        display: grid;
+        grid-template-columns: repeat(3,0.3fr);
+        text-align: center;
     }
-    #form_ input{
-        width: 780px; 
+    #form_ input{ 
         height: 59px;
+        width: 780px;
         border: 1px solid rgba(27, 27, 47, 0.3);
         border-radius:4px;
+        margin-left: auto;
+        margin-right: auto;
     }
+    /*#mesg input[placeholder]{
+        position:absolute;
+        top:50%;
+    }*/
 }
