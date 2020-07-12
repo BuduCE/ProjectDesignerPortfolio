@@ -88,7 +88,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 py-3">
-                        <img src="./images/pic2.png" style="width: 100%; height: auto; margin-left:auto;margin-right: auto;">
+                        <img src="./images/pic2.png" style="width: 80%; height: auto; margin-left:auto;margin-right: auto; z-index: 2;position: relative;">
+                        <img src="./images/underlay.png" style="widows: 235px; height: 100%;z-index: 1; left: 25px; bottom:4px;position: absolute;">
                     </div>
                     <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12 py-3">
                         <p>I am an exceptional product designer with over five years work experience in various tech industry. I design great user interface and I ensure my designs are neat and clean for the eyes. As a product deigner and UX researcer,I design and build scalable products with amazing user interface.  All the brands I have worked for are top and great brands with great customer satisfaction. Having over 4years experience designing great products, you can trust me for your project.</p>
@@ -213,8 +214,8 @@
                 <input placeholder="Fullname" type="text"><br><br>
                 <input placeholder="Email Address" type="email"><br><br>
                 <input placeholder="subject of the message" type="text"><br><br>
-                <input placeholder="Message" type="text" style="height: 317px;" id="mesg"><br>
-                <button class="active1 m-5 py-2 px-3" style="color: white;">Send</button>
+                <textarea placeholder="Message" type="text" id="mesg"></textarea><br>
+                <input class="active1 m-5 py-2 px-3" type="submit" style="color: white;" value="SEND">
             </form>
 
             </div>
